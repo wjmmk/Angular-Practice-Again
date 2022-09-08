@@ -1,0 +1,10 @@
+<div class="card">
+    <img class="image" [src]="image" alt="">
+    <div class="wrapper-text">
+        <div> {{introDate?.title}} </div>
+        <div> {{introDate?.subtitle}} </div>
+    </div>
+    <div>
+        <button class="favorite" (click)="addFavorite(introDate)">Add Favorite</button>
+    </div>
+</div>
