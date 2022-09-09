@@ -7,7 +7,14 @@ import { CardComponent } from './card/card.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContactComponent } from './contact/contact.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveContactComponent } from './reactive-contact/reactive-contact.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { UserComponent } from './users/user/user.component';
+import { DetailsComponent } from './users/details/details.component';
+import { ListComponent } from './users/list/list.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +23,19 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     SidebarComponent,
     ContactComponent,
-    
+    ReactiveContactComponent,
+    HomeComponent,
+    FooterComponent,
+    PagenotfoundComponent,
+    UserComponent,
+    DetailsComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

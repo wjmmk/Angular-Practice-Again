@@ -1,0 +1,9 @@
+.mini-image {
+    border: 5px solid rgb(119, 16, 187);
+    height: 200px;
+    width: 400px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+}
