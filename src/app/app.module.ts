@@ -7,8 +7,7 @@ import { CardComponent } from './card/card.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContactComponent } from './contact/contact.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ReactiveContactComponent } from './reactive-contact/reactive-contact.component';
+import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
@@ -23,7 +22,6 @@ import { ListComponent } from './users/list/list.component';
     HeaderComponent,
     SidebarComponent,
     ContactComponent,
-    ReactiveContactComponent,
     HomeComponent,
     FooterComponent,
     PagenotfoundComponent,
@@ -35,7 +33,6 @@ import { ListComponent } from './users/list/list.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
